@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<script type="text/javascript" src="./lib/jquery.js"></script>
+	<title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework - Multi Page</title>
+</head>
+
+<body>
+	<!-- Start of first page: #one -->
+	<div class="ui-page" id="one">
+		<div class="ui-header">
+			<h1>Multi-page application</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>One</h2>
+			<button id="res_but">Show resolution</button>
+			<span id="res_span"></span><br /><br />
+		<ul class="ui-listview">
+			 <li class="ui-group-index">Show internal pages:</li>
+				 <li class="ui-li-anchor"><a href="#popup" data-rel="popup" data-position-to="window">Show image</a></li>
+				 <li class="ui-li-anchor"><a href="#two">Show page "two"</a></li>
+				 <li class="ui-li-anchor"><a href="#three">Show page "three"</a></li>
+				 <li class="ui-li-anchor"><a href="#four">Show page "four"</a></li>
+				 <li class="ui-li-anchor"><a href="#five">Show page "five"</a></li>
+			</ul>
+			<div id="popup" class="ui-popup center_title_1btn">
+				<div class="ui-popup-header">Image</div>
+				<div class="ui-popup-content popup-content-padding">
+					<img src="img/golub.jpg">
+				</div>
+				<div class="ui-popup-footer">
+		</div>
+			</div>
+		</div><!-- /content -->
+	</div><!-- /page one -->
+
+
+	<!-- Start of second page: #two -->
+	<div class="ui-page" id="two">
+		<div class="ui-header">
+			<h1>Two</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>Two</h2>
+			<video width="320" height="240" controls>
+  			<source src="img/_TouchCube.mp4" type="video/mp4">
+  			</video>
+			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
+		</div><!-- /content -->
+	</div><!-- /page two -->
+	
+	<!-- Start of third page -->
+	<div class="ui-page" id="three">
+		<div class="ui-header">
+			<h1>Three</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>Three</h2>
+			<p id="colors23">I have an id of "three" on my page container. I'm the third
+				page container in this multi-page template.</p>
+			<button id="change_color">Change color</button>
+			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
+		</div>
+	</div>
+
+	<!-- Start of four page -->
+	<div class="ui-page" id="four">
+		<div class="ui-header">
+			<h1>Four</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>Four</h2>
+			<iframe width="320" height="240" src="https://www.youtube.com/embed/limrI_1IQBk" frameborder="0"></iframe>
+			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
+		</div>
+	</div>
+	
+	<div class="ui-page" id="five">
+		<div class="ui-header">
+			<h1>Four</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>Four</h2>
+			<canvas id='draw' width='240' height='180' style='border:1px solid;'></canvas>
+			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
