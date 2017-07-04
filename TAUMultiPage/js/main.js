@@ -40,7 +40,10 @@
     });
     
     var x = document.getElementById("draw").getContext("2d");
+    x.font = 'italic 8pt Calibri';
     x.fillText("text1", 12, 23);
+    x.fillStyle = '#ff32ff';
     x.fillText("tesfds", 23, 56);
+    x.font = '28pt Arial';
     x.fillText("fdsaf", 53, 64);
 } () );
