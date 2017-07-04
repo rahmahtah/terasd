@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>iMLdr8vQLTTU5kDnasfyYx8TPN0k1N8OVMdmecCVZNE=</DigestValue>
+<DigestValue>IUAmptX0Iq8++NAm7AY9TJ/zWDfJ61ABBsJFdNEcr7s=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -28,11 +28,11 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>1cCAP8tKmhdpo1mijBR9JSqc6CDmbu6cEbZXL4IoZ7g=</DigestValue>
+<DigestValue>ajeR7BS0sM+7JYFZPtrC1mJAVNcp9adlJIoOVlwhWpY=</DigestValue>
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>HifM4q4k9Xx9mKJzbRnSJo01QBDA6tjBCOzp5I8HakA=</DigestValue>
+<DigestValue>eDs+AsUdxkCxMgOYpXDfE34MnvIdJakC2roOX++9VbI=</DigestValue>
 </Reference>
 <Reference URI="lib%2Fjquery.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -795,11 +795,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-f+KMliXDZ803DoN6CVdRxMqIoSiqcUwU3ZRxIiHDnfkmQ/Owm2AnJTfYJzH6RiCl0loHUG+hbBhX
-/D1uK+H1pckfi05cwGQszyDd/CIMYeDU7geIS9SdPTwRbXkO4McE1/1deL8gG7U0gQlPU+g1OZ/Q
-a/cQxUgWyuFQoOhECwj7McFk3kfFef7/simzGOwNoGu7oaV3IQ15zxyfqw2OhQjpLihb4+OObhuj
-80+IDVxMWDPMlineJUPSI39kR7Nmx5rRb2L1S/NKGsyc59z83MO9bIHLIDCa5qm9k8gjys0HEc0I
-Zo+W3J1L/s6QDZhb/WuavwwwUaV89AjwlL2DAg==
+k695yS+AWcCfvN07B9uFq89v7+4AsjksHLSeCV9CcqxOBsN/vZl2Cu50i4kUrS+lwMwbe372aIyy
+qhbE7ddpTlZtBEDaBY6sGpZaAszbqoAHNoGV6qoM7nR4oN1wYjcvfBtFanARermkSzAuxbt4zJB2
+Pbrvs6rDaOCHYpKWsV/9gIGv5XZ3LzlyjjhUsQwVQ2lS22TmQ9Z3b0PJ1yRLrHWOvHB/ugOFtuV8
+BDjONaxwO20yxPaI7BXswlPvRjrS0swYtvCnnJUx9hkKEdBT1EDgMpshO4h5xslkyxOMJuHEDSGk
+4o4MuLosrLdSzsbP43JSvhD2gjIn0bgWmNNx1w==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
